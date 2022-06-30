@@ -283,46 +283,23 @@ section.galeria{
     
     /*MENU*/
 header, .box{
-  height: 6px;
+  height: 60px;
 }
 
 .logo img{
-  width: 40px;
+  width: 38px;
   padding-top: 20px;       
 }
 /*MENU*/
 
 /*MENU MOBILE*/
-.hamburger-menu{
-    display: inherit;
-  }  
-  
-  #menu_toggle {
-  opacity: 0;
-  }
-  #menu_toggle:checked + .menu_btn > span {
-  transform: rotate(45deg);
-  }
-  #menu_toggle:checked + .menu_btn > span::before{
-  top: 0;
-  transform: rotate(0deg);
-  }
-  #menu_toggle:checked + .menu_btn > span::after{
-  top: 0;
-  transform: rotate(90deg);
-  }
-  #menu_toggle:checked ~ .menu_box{
-  left: 0 !important;
-  }
+
   .menu_btn{
-  position: relative;
-  float: right;
   top: -12px;
   right: 28px;
   width: 26px;
   height: 26px;
-  cursor: pointer;
-  z-index: 1;
+
   }
   
   .menu_btn > span, 
@@ -332,19 +309,10 @@ header, .box{
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #ffffff;
-  transition-duration: .25s;
+  background-color: #dbdbdb;
   }
   
-  .menu_btn > span::before{
-  content: '';
-  top: -8px;
-  }
-  
-  .menu_btn > span::after{
-  content: '';
-  top: 8px;
-  }
+
   
   .menu_box{
   display: block;
@@ -372,9 +340,7 @@ header, .box{
   transition-duration: .25s;
   }
   
-  .menu_item:hover{
-    color: #5c27c6;
-  }
+
   /*MENU MOBILE*/
     
     /*GALERIA*/
@@ -389,40 +355,16 @@ header, .box{
 }
 
 .logo2 img{
-    width: 70px;
+    width: 65px;
     margin: 25px -140px 0 40px;
 }
 
 .btn{
-    color: aliceblue;
     padding: 25px;
-    display: flex;
     align-items:center;
     justify-content: center;
-    cursor: pointer;
 }
 
-.btn:hover, .btn:focus{
-    color:#5c27c6;
-}
-
-.btn::after{
-    content: "";
-    display: block;
-    width: 0px;
-    height: 24px;
-    overflow: hidden;
-    background-image: url("../imagens/seta.png");
-    background-size: 12px;
-    background-repeat: no-repeat;
-    margin-top: 10px;
-    transition: width 200ms, margin-left 200ms;
-}
-
-.btn:is(:hover,:focus)::after{
-    width: 20px;
-    margin-left: 8px;
-}
 /*RODAPE*/
 
 
