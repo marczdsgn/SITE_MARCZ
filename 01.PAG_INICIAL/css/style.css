@@ -283,12 +283,12 @@ section.galeria{
     
     /*MENU*/
 header, .box{
-  height: 65px;
+  height: 60px;
 }
 
 .logo img{
-  width: 42px;
-  padding-top: 22px;       
+  width: 40px;
+  padding-top: 20px;       
 }
 /*MENU*/
 
