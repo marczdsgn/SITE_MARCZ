@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
   }
   
   html,body{
@@ -136,7 +137,7 @@ footer{
     float: left;
 }
 
-.btn{
+.btn a{
     color: aliceblue;
     padding: 25px;
     display: flex;
@@ -145,11 +146,11 @@ footer{
     cursor: pointer;
 }
 
-.btn:hover, .btn:focus{
+.btn a:hover, .btn a:focus{
     color:#5c27c6;
 }
 
-.btn::after{
+.btn a::after{
     content: "";
     display: block;
     width: 0px;
@@ -162,7 +163,7 @@ footer{
     transition: width 200ms, margin-left 200ms;
 }
 
-.btn:is(:hover,:focus)::after{
+.btn a:is(:hover,:focus)::after{
     width: 20px;
     margin-left: 8px;
 }
@@ -351,23 +352,33 @@ header, .box{
    /*GALERIA*/
   
    footer{
-    height: 50px;
+    width: 100%;
+    height: 70px;
 }
 
 .logo2 img{
-    width: 72px;
-    margin: 25px -140px 0 20px;
+    width: 75px;
+    margin: 25px -140px -50px 40px;
 }
 
 .btn a{
-    padding: -25px;
-    align-items:center;
-    justify-content: center;
+    padding: 18px;
     font-size: 14px;
-    color: #ffffff;
-    text-decoration: none;
 }
 
+
+.btn a::after{
+    width: 0px;
+    height: 24px;
+    background-size: 12px;
+    margin-top: 10px;
+
+}
+
+.btn a:is(:hover,:focus)::after{
+    width: 20px;
+    margin-left: 8px;
+}
 /*RODAPE*/
 
 
