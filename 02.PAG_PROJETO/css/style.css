@@ -136,7 +136,7 @@ section.module.parallax::after{
 }
 
 section.module.parallax-1{
-  background-image: url('../imagens/static.jpg');
+  background-image: url('../imagens/capa_Prancheta1.jpg');
 }
 
 
@@ -436,13 +436,13 @@ section.module.content{
 }
 
 section.module.parallax{
-  height: 32vh;
+  height: 60vh;
   background-position: 50% 70px;
  
 }
 
 section.module.parallax-1{
-  background-image: url('../imagens/capa4.jpg');
+  background-image: url('../imagens/capa_750px.jpg');
   
 }
 
