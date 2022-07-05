@@ -6,7 +6,7 @@
   
   html,body{
     height: 100%;
-    background-color: black;
+    background-color: #171714;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-family: "Clarity city";
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6{
 
 main{
   display: block;
-  background-color: #000000;
+  background-color: #171714;
 }
 
 .container{
@@ -111,7 +111,7 @@ section.module p{
 
 section.module.content{
   padding: 100px 0;
-  background: #030303;
+  background: #171714;
   margin: 0;
 }
 
