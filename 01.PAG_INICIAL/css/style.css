@@ -73,6 +73,21 @@ header{
   }
   /*MENU*/
 
+  .texto{
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 100px 150px 100px;
+  }
+
+  .texto h2{
+    font-size: 68px;
+    padding-bottom: 20px; 
+  }
+
+  .texto p{
+    font-size: 20px;
+  }
+
   /*GALERIA*/
 section.container{
     width: 100%;
