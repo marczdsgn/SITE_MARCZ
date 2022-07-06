@@ -73,6 +73,7 @@ header{
   }
   /*MENU*/
 
+  /*INTRO*/
   .texto{
     color: #ffffff;
     text-align: center;
@@ -87,7 +88,7 @@ header{
   .texto p{
     font-size: 20px;
   }
-
+  /*INTRO*/
  
 
   /*GALERIA*/
@@ -290,6 +291,21 @@ header, .box{
   }
   /*MENU MOBILE*/
 
+  /*INTRO*/
+  .texto{
+    padding: 100px 100px 120px 100px;
+  }
+
+  .texto h2{
+    font-size: 50px;
+    padding-bottom: 16px; 
+  }
+
+  .texto p{
+    font-size: 17px;
+  }
+  /*INTRO*/
+
   /*GALERIA*/
 section.galeria{
     width: 50%;
@@ -358,9 +374,23 @@ header, .box{
   text-decoration: none;
   transition-duration: .25s;
   }
-  
-
   /*MENU MOBILE*/
+
+  /*INTRO*/
+  .texto{
+    padding: 100px 60px;
+  }
+
+  .texto h2{
+    font-size: 38px;
+    padding-bottom: 14px; 
+  }
+
+  .texto p{
+    font-size: 14px;
+  }
+  /*INTRO*/
+
     
     /*GALERIA*/
     section.galeria{
