@@ -368,7 +368,7 @@ footer{
     /*PROJETO*/
     section.module.parallax{
       width: 100%;
-      height: 40vh;
+      height: 45vh;
       max-height: 600px;
       
       display: flex;
@@ -412,7 +412,7 @@ footer{
     }
     
     section.module.content{
-      padding: 20px 0 100px 0;
+      padding: 0px 0 100px 0;
       background: #171714;
       margin: 0;
     }
