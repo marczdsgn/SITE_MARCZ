@@ -6,7 +6,7 @@
   
   html,body{
     height: 100%;
-    background-color: #171714;
+    background-color: #d4d4ca;
     word-wrap: break-word;
     overflow-wrap: break-word;
     font-family: "Clarity city";
@@ -73,87 +73,12 @@ header{
   /*MENU*/
 
 
+  h2{
+    padding: 100px 200px;
+    color: #5c27c6;
+    font-size: 48px;
+  }
   
-  /*CONTEUDO*/
-h1,h2,h3,h4,h5,h6{
-  font-weight: 600;
-  color: #5c27c6;
-}
-
-.wrapper{
-  width: 100%;
-  margin: 0 auto;
-}
-
-main{
-  display: block;
-  background-color: #171714;
-}
-
-.container{
-  width: 100%;
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-section.module h2{
-  margin-bottom: 40px;
-  margin-top: -25px;
-  font-size: 20px;
-}
-
-section.module p{
-  margin-bottom:  40px;
-  color: #dedede;
-  font-size: 14px;
-}
-
-section.module.content{
-  padding: 100px 0;
-  background: #171714;
-  margin: 0;
-}
-
-section.module.parallax{
-  width: 100%;
-
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  background-position: 50% 70px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-section.module.parallax::after{
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 8;
-}
-
-section.module.parallax-1{
-  background-image: url('../imagens/capa_Prancheta1.jpg');
-}
-
-
-
-section.projeto img{
-  width: 100%;
-  max-width: 1920px;
-  display: block;
-  margin: 0 auto;
-  padding: 5px 20px;
-}
-
-
-
-/*CONTEUDO*/
 
   
 
@@ -303,45 +228,7 @@ header,.box{
   
   /*MENU MOBILE*/
 
-  /*CONTEUDO*/
-
-.container{
-  width: 100%;
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-section.module h2{
-  margin-bottom: 40px;
-  margin-top: -75px;
-  font-size: 20px;
-}
-
-section.module p{
-  margin-bottom:  40px;
-  color: #dedede;
-  font-size: 14px;
-}
-
-section.module.content{
-  padding: 100px 0;
-  background: #030303;
-  margin: 0;
-}
-
-section.module.parallax{
-  height: 45vh;
-  background-position: 50% 70px;
- 
-}
-
-section.module.parallax-1{
-  background-image: url('../imagens/capa2.jpg');
   
-}
-
-/*CONTEUDO*/
 
  
 }
@@ -410,49 +297,7 @@ header, .box{
   /*MENU MOBILE*/
 
 
-  /*CONTEUDO*/
-
-.container{
-  width: 100%;
-  max-width: 450px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-section.module h2{
-  margin-bottom: 40px;
-  margin-top: -75px;
-  font-size: 20px;
-}
-
-section.module p{
-  margin-bottom:  40px;
-  color: #dedede;
-  font-size: 14px;
-}
-
-section.module.content{
-  padding: 100px 0;
-  background: #030303;
-  margin: 0;
-}
-
-section.module.parallax{
-  height: 60vh;
-  background-position: 50% 70px;
- 
-}
-
-section.module.parallax-1{
-  background-image: url('../imagens/capa_750px.jpg');
   
-}
-
-section.projeto img{
-  padding: 3px 10px;
-}
-
-/*CONTEUDO*/
 
  /*RODAPE*/
  footer{
