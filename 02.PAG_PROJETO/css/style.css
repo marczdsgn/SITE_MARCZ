@@ -394,7 +394,7 @@ footer{
     }
     
     section.module h2{
-      margin-bottom: 40px;
+      margin-bottom:40px;
       margin-top: -25px;
       font-size: 28px;
     }
@@ -406,7 +406,7 @@ footer{
     }
     
     section.module p{
-      margin-bottom:  40px;
+      margin-bottom:  0px;
       color: #dedede;
       font-size: 14px;
     }
