@@ -135,13 +135,9 @@ section.module.parallax{
   background-attachment: fixed;
 }
 
-
-
 section.module.parallax-1{
   background-image: url('../imagens/capa1.jpg');
 }
-
-
 
 section.projeto img{
   width: 100%;
@@ -340,8 +336,6 @@ footer{
     background-color: #dbdbdb;
     }
     
-  
-    
     .menu_box{
     display: absolute;
     position: fixed;
@@ -370,7 +364,28 @@ footer{
     
   
     /*MENU MOBILE*/
-      
+    
+    /*PROJETO*/
+    section.module.parallax{
+      width: 100%;
+      height: 100vh;
+      max-height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      background-position: 50% 55px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    
+    section.module.parallax-1{
+      background-image: url('../imagens/capa3.jpg');
+    }
+    
+    /*PROJETO*/
+
   
     
      /*RODAPE*/
