@@ -416,6 +416,14 @@ footer{
       background: #171714;
       margin: 0;
     }
+
+    section.projeto img{
+      width: 100%;
+      max-width: 1920px;
+      display: block;
+      margin: 0 auto;
+      padding: 5px 8px;
+    }
     
     /*PROJETO*/
 
