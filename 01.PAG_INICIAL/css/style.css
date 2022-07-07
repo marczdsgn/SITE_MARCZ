@@ -113,6 +113,10 @@ section.galeria{
     background-image: url('../imagens/sunset.jpg');
   }
 
+  section.gabi{
+    background-image: url('../imagens/CAPA1_GABI.jpg');
+  }
+
   .overlay{
     position: absolute;
     top:0%;
