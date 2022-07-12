@@ -1,0 +1,316 @@
+@font-face {
+    font-family: ClarityRegular;
+    src: url('../00.css/fontes/ClarityCity-Regular.ttf');
+}
+
+@font-face {
+    font-family: ClarityMedium;
+    src: url('../00.css/fontes/ClarityCity-Medium.ttf');
+}
+
+@font-face {
+    font-family: ClarityBold;
+    src: url('../00.css/fontes/ClarityCity-Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: ClarityRegular;
+}
+
+html,body{
+    height: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: #141414;
+}
+
+.center{
+    max-width: 2250px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/*MENU*/
+header{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+    z-index: 4;
+}
+
+.inicio {
+    width: 45px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 45px;
+    padding-top: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo img:hover, .logo img:focus{
+    opacity: 50%;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    float: left;
+    margin-top: -35px;
+    margin-right: 42px;
+    padding: 16px;
+}
+
+header ul a{
+    color: #d6d4cc;
+    font-size: 15.5px;
+    align-items: center;
+}
+
+nav a:hover, nav a:focus{
+    color: #5c27c6;
+}
+
+.headerbox{
+    width: 100%;
+    height: 75px;
+  }
+  
+  .hamburger-menu{
+    display: none;
+  }
+/*MENU*/
+
+/*RODAPE*/
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.logo2 img{
+    width: 98px;
+    margin:  25px -140px 0 40px;
+    float: left;
+}
+
+.btn{
+    width: 200px;
+    margin: 0 auto;   
+}
+
+.btn a{
+    color:#d6d4cc;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn a:hover, .btn a:focus{
+    color:#5c27c6;
+}
+
+.btn a::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 24px;
+    overflow: hidden;
+    background-image: url("../00.css/seta.png");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    transition: width 200ms, margin-left 200ms;
+}
+
+.btn a:is(:hover,:focus)::after{
+    width: 20px;
+    margin-left: 8px;
+}
+/*RODAPE*/
+
+/*RESPONSIVO*/
+@media screen and (max-width: 1024px){
+    .menudesk{
+        display: none;
+    } 
+
+    /*MENU*/
+    header, .headerbox{
+        height: 65px;
+    }
+
+    .logo img{
+        width: 40px;
+        padding-top: 22px;       
+    }
+    /*MENU*/
+
+    /*MENU MOBILE*/
+    .hamburger-menu{
+        display: inherit;
+        z-index: 8;
+    }
+
+    #menu_toggle {
+        opacity: 0;
+    }
+    #menu_toggle:checked + .menu_btn > span {
+        transform: rotate(45deg);
+    }
+    #menu_toggle:checked + .menu_btn > span::before{
+        top: 0;
+        transform: rotate(0deg);
+    }
+    #menu_toggle:checked + .menu_btn > span::after{
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu_toggle:checked ~ .menu_box{
+        left: 0 !important;
+    }
+    .menu_btn{
+        position: relative;
+        float: right;
+        top: -12px;
+        right: 28px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .menu_btn > span, 
+    .menu_btn > span::before,
+    .menu_btn > span::after{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #d6d4cc;
+    transition-duration: .25s;
+    }
+    .menu_btn > span::before{
+        content: '';
+        top: -8px;
+    }
+
+    .menu_btn > span::after{
+        content: '';
+        top: 8px;
+    }
+
+    .menu_box{
+        display: block;
+        position: fixed;
+        top: 65px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: rgba(0, 0, 0, 0.628);
+        box-shadow: 0 0  rgb(0, 0, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    .menu_item{
+        display: block;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+
+    .menu_item:hover{
+        color: #5c27c6;
+      }
+    /*MENU MOBILE*/
+}
+
+@media screen and (max-width: 800px){
+    /*MENU*/
+    header, .headerbox{
+        height: 55px;
+    }
+
+    .logo img{
+        width: 34px;
+        padding-top: 19px;       
+    }
+    /*MENU*/
+
+    /*MENU MOBILE*/
+  
+    .menu_btn{
+        top: -13px;
+        right: 18px;
+        width: 20px;
+        height: 26px; 
+    }
+
+    .menu_box{
+        top: 55px;
+    }
+
+    .menu_item{
+        padding: 40px;
+        font-size: 30px;
+        font-weight: 400;
+    }      
+      
+    /*MENU MOBILE*/
+
+     /*RODAPE*/
+   footer{
+    width: 100%;
+    height: 70px;
+    }
+
+    .logo2 img{
+        width: 75px;
+        margin: 25px -140px -50px 18px;
+    }
+
+    .btn{
+        width: 180px;  
+    }
+
+    .btn a{
+        padding: 18px;
+        font-size: 12px;
+    }
+
+    .btn a::after{
+        width: 0px;
+        height: 24px;
+        background-size: 10px;
+        margin-top: 10px;
+    }
+
+    .btn a:is(:hover,:focus)::after{
+        width: 20px;
+        margin-left: 8px;
+    }
+}
+/*RESPONSIVO*/
