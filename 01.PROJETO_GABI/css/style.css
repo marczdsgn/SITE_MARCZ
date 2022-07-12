@@ -96,6 +96,10 @@ section.projeto img{
         padding: 0 30px;
     }
 
+    .seta img{
+        display: none;
+    }
+
     section.module h2{
         margin-bottom:40px;
         margin-top: -25px;
