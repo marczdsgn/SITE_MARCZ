@@ -37,6 +37,10 @@ section.capa{
     background-image: url('../imagens/capa.jpg');
 }
 
+section.capaGABI{
+  background-image: url('../imagens/CAPA1_GABI.jpg');
+}
+
 .overlay{
     position: absolute;
     top:0%;
