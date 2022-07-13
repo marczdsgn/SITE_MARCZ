@@ -85,7 +85,7 @@ section.projeto img{
     /*PROJETO*/
     section.module.parallax{
         width: 100%;
-        height: 46vh;
+        height: 45vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
