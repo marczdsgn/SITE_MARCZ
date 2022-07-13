@@ -13,10 +13,22 @@
   <meta name="keywords" content="palavras-chaves,separadas,por,virgulas">
   <meta name="author" content="marczdsgn">
   
+  <script>
+    function loading(){
+        document.getElementsByClassName('box-load')[0].style.display="none"
+        document.getElementsByClassName('content')[0].style.display="block"
+    }
+  </script>
+
 </head>
 
-  <body>
+  <body onLoad="loading()">
 
+    <div class="box-load">
+        <div id="load"></div>
+    </div>
+
+    <div class="content">
         <!--MENU-->
             <header>
             <div class="center">
@@ -114,6 +126,6 @@
           </div>
         </footer><!--footer-->
         <!--RODAPE-->
-
+    </div><!--content-->
   </body>
 </html>
