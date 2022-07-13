@@ -22,11 +22,42 @@
 }
 
 html,body{
+    width: 100%;
     height: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
     background-color: #141414;
 }
+
+/*Loading*/
+@keyframes loading{
+    to {transform: rotate(360deg);}
+}
+
+#load{
+    width: 60px;
+    height: 60px;
+    border:#44444493 solid  6px;
+    border-left-color: #5c27c6;
+    border-radius: 50%;
+
+    animation: loading 1.6s linear infinite;
+}
+
+.box-load{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: none;
+}
+/*Loading*/
 
 .center{
     max-width: 2250px;
