@@ -82,47 +82,64 @@ section.projeto img{
 
 /*RESPONSIVO*/
 @media screen and (max-width: 800px){
+    /*PROJETO*/
     section.module.parallax{
+        width: 100%;
         height: 47vh;
         max-height: 600px;
-    }
-
-    section.module.parallax-1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        background-position: 50% 55px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+      }
+      
+      section.module.parallax-1{
         background-image: url('../imagens/CAPA1_GABI.jpg');
-    } 
-    
-    .container{
+      }
+  
+      .container{
+        width: 100%;
         max-width: 750px;
+        margin: 0 auto;
         padding: 0 30px;
-    }
-
-    .seta img{
-        display: none;
-    }
-
-    section.module h2{
+      }
+      
+      section.module h2{
         margin-bottom:40px;
         margin-top: -25px;
         font-size: 28px;
-    }
-
-    section.module h5{
+      }
+      
+      section.module h5{
         margin-bottom: 38px;
         font-size: 12px;
-    }
-
-    section.module p{
+      }
+      
+      section.module p{
         margin-bottom:  0px;
         font-size: 14px;
-    }
-
-    section.module.content{
+      }
+      
+      section.module.content{
         padding: 0px 0 100px 0;
-    }
-
-    section.projeto img{
-        padding: 3px 8px;
-    }
+        margin: 0;
+      }
+  
+      section.projeto img{
+        width: 100%;
+        max-width: 1920px;
+        display: block;
+        margin: 0 auto;
+        padding: 5px 8px;
+      }
+      
+      /*PROJETO*/
 }
 
 /*RESPONSIVO*/
