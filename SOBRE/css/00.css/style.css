@@ -258,9 +258,12 @@ footer{
         margin: 0;
         padding: 80px 0;
         list-style: none;
+        background-color: rgba(0, 0, 0, 0.895);
+        /*
         background-color: rgba(0, 0, 0, 0.628);
         box-shadow: 0 0  rgb(0, 0, 0);
         backdrop-filter: blur(10px);
+        */
     }
 
     .menu_item{
