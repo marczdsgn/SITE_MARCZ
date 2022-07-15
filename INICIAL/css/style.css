@@ -40,7 +40,7 @@ section.capa{
 section.capaGABI{
   background-image: url('../imagens/CAPA1_GABI.jpg');
 }
-
+/*
 .overlay{
     position: absolute;
     top:0%;
@@ -61,6 +61,21 @@ section.capaGABI{
 
 .overlay:hover{
     opacity: 0.99;
+}*/
+
+.overlay{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.4s;
+  background-color: rgba(0, 0, 0, 0.70);
+}
+
+.overlay:hover{
+  opacity: 0.99;
 }
 
 h2.titulo{
