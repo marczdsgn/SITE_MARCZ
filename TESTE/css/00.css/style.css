@@ -80,7 +80,9 @@ header{
 .inicio {
     width: 45px;
     margin: 0 auto;
-    opacity: 0;
+}
+
+.link a{
     display: none;
 }
 
