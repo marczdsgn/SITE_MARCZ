@@ -21,12 +21,12 @@ main{
 }
 
 .seta img{
-    width: 12px;
-    padding-top: 25px;
+    width: 16px;
+    padding-top: 30px;
 
     display: block;
     margin: 0 auto;
-    opacity: 40%;
+    opacity: 70%;
 }
 
 section.module h2{
