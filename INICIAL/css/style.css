@@ -40,6 +40,10 @@ section.capa{
 section.capaGABI{
   background-image: url('../imagens/CAPA1_GABI.jpg');
 }
+
+section.capafYNES{
+  background-image: url('../imagens/CAPA_FYNES.jpg');
+}
 /*
 .overlay{
     position: absolute;
