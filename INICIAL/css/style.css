@@ -48,6 +48,10 @@ section.capafYNES{
 section.capaSAMANTHA{
   background-image: url('../imagens/CAPA_SAMANTHA.jpg');
 }
+
+section.capaZCROSS{
+  background-image: url('../imagens/CAPA_ZCROOS.jpg');
+}
 /*
 .overlay{
     position: absolute;
