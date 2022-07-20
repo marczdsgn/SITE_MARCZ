@@ -67,7 +67,7 @@ section.module.parallax{
 }
 
 section.module.parallax-1{
-    background-image: url('../imagens/capa.jpg');
+    background-image: url('../imagens/CAPA_SAMANTHA.jpg');
 }
 
 section.projeto img{
@@ -98,7 +98,7 @@ section.projeto img{
       }
       
       section.module.parallax-1{
-        background-image: url('../imagens/capa_mobile.jpg');
+        background-image: url('../imagens/CAPA_MOBILE_SAMANTHA.jpg');
       }
 
       .seta img{
@@ -109,7 +109,7 @@ section.projeto img{
         width: 100%;
         max-width: 750px;
         margin: 0 auto;
-        padding: 0 30px;
+        padding: 0 0px;
       }
       
       section.module h2{
@@ -131,9 +131,11 @@ section.projeto img{
       }
       
       section.module.content{
-        padding: 10px 0 40px 0;
+        padding: 10px 0 0px 0;
         margin: 0;
       }
+
+     
   
       section.projeto img{
         width: 100%;
