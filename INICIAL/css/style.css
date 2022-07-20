@@ -56,6 +56,11 @@ section.capaZCROSS{
 section.capaCARINHAS{
   background-image: url('../imagens/CAPA_CARINHAS.jpg');
 }
+
+section.capaPAINATE{
+  background-image: url('../imagens/CAPA_Painite.jpg');
+}
+
 /*
 .overlay{
     position: absolute;
