@@ -47,8 +47,13 @@ section.module p{
     font-size: 15px;
 }
 
+.ms{
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
 section.module.content{
-    padding: 50px 0 100px 0;
+    padding: 50px 0 70px 0;
     margin: 0;
 }
 
@@ -109,7 +114,7 @@ section.projeto img{
         width: 100%;
         max-width: 750px;
         margin: 0 auto;
-        padding: 0 0px;
+        padding: 0 30px;
       }
       
       section.module h2{
@@ -131,8 +136,12 @@ section.projeto img{
       }
       
       section.module.content{
-        padding: 10px 0 0px 0;
+        padding: 10px 0 40px 0;
         margin: 0;
+      }
+
+      .ms{
+        padding-top: 40px;
       }
 
      
