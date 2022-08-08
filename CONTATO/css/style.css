@@ -74,3 +74,14 @@ form button{
 form button:hover{
   opacity: 80%;
 }
+.text{
+  padding-top: 130px;
+  color: #616161;
+  font-weight: 500;
+}
+
+.email{
+  padding: 5px 0 80px 0;
+  font-weight: 800;
+}
+
