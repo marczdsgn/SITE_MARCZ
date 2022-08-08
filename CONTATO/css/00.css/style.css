@@ -13,6 +13,11 @@
     src: url('../00.css/fontes/ClarityCity-Bold.ttf');
 }
 
+@font-face{
+    font-family: anek;
+    src:url('../00.css/fontes/AnekBangla[wdth\,wght].ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
