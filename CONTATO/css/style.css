@@ -46,7 +46,7 @@ form input{
   outline: none;
   border: 0;
   margin-bottom: 50px;
-  background-color: #e6e6e6de;
+  background-color: #e6e6e6b0;
   border-radius: 10px;
 }
 
@@ -75,7 +75,7 @@ form button:hover{
   opacity: 80%;
 }
 .text{
-  padding-top: 130px;
+  padding-top: 100px;
   color: #616161;
   font-weight: 500;
 }
