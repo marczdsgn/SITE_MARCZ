@@ -149,7 +149,8 @@ form button:hover{
     outline: none;
     border: 0;
     background-color: #333333;
-    color: #e6e6e6
+    color: #e6e6e6;
+    margin-left: 10px;
   }
   
   form button:hover{
