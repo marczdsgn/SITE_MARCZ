@@ -108,8 +108,8 @@ form button:hover{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 10px 25px;
-    width: 450px;
+    padding: 10px 0px;
+    width: 400px;
     
   }
   
