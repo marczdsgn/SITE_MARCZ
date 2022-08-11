@@ -194,6 +194,11 @@ footer{
         width: 40px;
         padding-top: 22px;       
     }
+
+    .logo img:focus{
+        box-shadow: none;
+        outline: none;
+    }
     /*MENU*/
 
     /*MENU MOBILE*/
@@ -292,6 +297,11 @@ footer{
     .logo img{
         width: 34px;
         padding-top: 19px;       
+    }
+
+    .logo img:focus{
+        box-shadow: none;
+        outline: none;
     }
     /*MENU*/
 
