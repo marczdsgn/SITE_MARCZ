@@ -72,7 +72,8 @@ form button{
 }
 
 form button:hover{
-  opacity: 80%;
+  background-color: #7348fb;
+  
 }
 .text{
   padding-top: 100px;
