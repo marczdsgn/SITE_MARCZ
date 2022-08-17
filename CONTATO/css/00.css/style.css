@@ -13,9 +13,9 @@
     src: url('../00.css/fontes/ClarityCity-Bold.ttf');
 }
 
-@font-face{
-    font-family: anek;
-    src:url('../00.css/fontes/AnekBangla[wdth\,wght].ttf');
+@font-face {
+    font-family: Anek;
+    src: url('../00.css/fontes/AnekDevanagari[wdth\,wght].ttf');
 }
 
 *{
@@ -31,7 +31,7 @@ html,body{
     height: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    background-color: #d6d4c;
+    background-color: #ffffff;
 }
 
 /*Loading*/
@@ -72,6 +72,7 @@ html,body{
 .clear{
     clear: both;
 }
+
 
 /*MENU*/
 header{
@@ -198,6 +199,11 @@ footer{
         width: 40px;
         padding-top: 22px;       
     }
+
+    .logo img:focus{
+        box-shadow: none;
+        outline: none;
+    }
     /*MENU*/
 
     /*MENU MOBILE*/
@@ -296,6 +302,11 @@ footer{
     .logo img{
         width: 34px;
         padding-top: 19px;       
+    }
+
+    .logo img:focus{
+        box-shadow: none;
+        outline: none;
     }
     /*MENU*/
 
