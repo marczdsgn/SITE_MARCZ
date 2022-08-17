@@ -1,149 +1,31 @@
-/*CONTEUDO*/
-h1,h2,h3,h4,h5,h6{
-    font-weight: 600;
-    color: #5c27c6;
+
+.obrigado img{
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  padding: 120px 0 30px 0;
 }
 
-.wrapper{
-    width: 100%;
-    margin: 0 auto;
+p{
+  width: 480px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 19px;
+  color: #828282;
+  padding-bottom: 100px;
 }
 
-main{
-    display: block;
+.logo2 img{
+  display: block;
+  margin: 0 auto;
+  width: 105px;
+  opacity: 60%;
 }
-
-.container{
-    width: 100%;
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.seta img{
-    width: 16px;
-    padding-top: 30px;
-
-    display: block;
-    margin: 0 auto;
-    opacity: 70%;
-}
-
-section.module h2{
-    margin-bottom: 40px;
-    margin-top: -25px;
-    font-size: 36px;
-}
-
-section.module h5{
-    margin-bottom: 38px;
-    font-size: 12px;
-    color: #515151;
-}
-
-section.module p{
-    margin-bottom:  40px;
-    color: #9d9c99;
-    font-size: 15px;
-}
-
-section.module.content{
-    padding: 50px 0 100px 0;
-    margin: 0;
-}
-
-section.module.parallax{
-    width: 100%;
-    height: 100vh;
-    max-height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    background-position: 50% 70px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-section.module.parallax-1{
-    background-image: url('../imagens/capa.jpg');
-}
-
-section.projeto img{
-    width: 100%;
-    max-width: 1200px;
-    display: block;
-    margin: 0 auto;
-    padding: 5px 20px;
-}
-
 /*CONTEUDO*/
 
 /*RESPONSIVO*/
 @media screen and (max-width: 800px){
-    /*PROJETO*/
-    section.module.parallax{
-        width: 100%;
-        height: 45vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: relative;
-        overflow: hidden;
-        background-position: 50% 55px;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: contain;
-      }
-      
-      section.module.parallax-1{
-        background-image: url('../imagens/capa_mobile.jpg');
-      }
-
-      .seta img{
-        display: none;
-      }
-  
-      .container{
-        width: 100%;
-        max-width: 750px;
-        margin: 0 auto;
-        padding: 0 30px;
-      }
-      
-      section.module h2{
-        margin-bottom:40px;
-        margin-top: -25px;
-        font-size: 28px;
-      }
-      
-      section.module h5{
-        margin-top: 10px;
-        padding-top: 15px;
-        margin-bottom: 38px;
-        font-size: 12px;
-      }
-      
-      section.module p{
-        margin-bottom:  10px;
-        font-size: 14px;
-      }
-      
-      section.module.content{
-        padding: 10px 0 40px 0;
-        margin: 0;
-      }
-  
-      section.projeto img{
-        width: 100%;
-        max-width: 1920px;
-        display: block;
-        margin: 0 auto;
-        padding: 2px 8px;
-      }
-      
-      /*PROJETO*/
+    
 }
 
 /*RESPONSIVO*/
