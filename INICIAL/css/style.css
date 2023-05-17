@@ -1,18 +1,16 @@
 
 /*INTRO*/
 .texto{
-    color: #d6d4cc;
+    color: rgb(240, 240, 240);
     text-align: center;
     padding: 120px 100px 150px 100px;
 }
  .texto h2{
-    font-size: 68px;
+    font-size: 42px;
     padding-bottom: 20px; 
-    font-family: ClarityMedium;
+    font-family: Monument;
 }
-.texto p{
-    font-size: 20px;
-}
+
 /*INTRO*/
 
 /*GALERIA*/
@@ -20,7 +18,7 @@ section.container{
     width: 100%;
     max-width: 2140px;
     margin: 5px auto;
-    padding: 0 auto;
+    padding: 40px;
 }
 
 section.galeria{
@@ -107,6 +105,41 @@ h2.titulo{
     font-size: 24px;
 }
 /*GALERIA*/
+
+.texto2{
+  color: white;
+  text-align: center;
+  padding: 120px 250px 150px 250px;
+}
+
+.texto2 h1{
+  font-family: monument;
+  font-size: 52px;
+  padding-bottom: 10px;
+}
+
+.texto2 h2{
+  font-size: 38px;
+  padding-bottom: 20px; 
+  font-family: Monument;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.texto2 p{
+  font-family: clarity city;
+  font-size: 22px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.texto2 h3{
+  font-family: ClarityRegular;
+  font-size: 46px;
+  padding: 150px 0 0 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
 
 /*RESPONSIVO*/
 @media screen and (max-width: 1024px){
