@@ -61,15 +61,21 @@ section.container{
 
   /*INTRO*/
 .texto{
-  color: rgb(240, 240, 240);
-  text-align: center;
-  padding: 120px 100px 150px 100px;
+  padding: 90px 100px 100px 100px;
 }
 .texto h2{
-  font-size: 42px;
-  padding-bottom: 20px; 
-  font-family: Monument;
+  font-size: 26px;
+  padding-bottom: 16px; 
 }
-
 /*INTRO*/
+
+/*GALERIA*/
+section.container{
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px 25px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+/*GALERIA*/
+
 }
