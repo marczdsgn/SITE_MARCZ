@@ -128,15 +128,14 @@ section.galeria{
 
 /*SOBRE*/
 .texto2{
-  max-width: 760px;
   margin: 0 auto;
-  padding: 100px 10px 0 10px;
+  padding: 100px 15px 0 15px;
 }
 
 .texto2 h1{
   font-family: monument;
-  font-size: 26px;
-  padding-bottom: 10px;
+  font-size: 24px;
+  padding-bottom: 8px;
 }
 
 .texto2 h2{
