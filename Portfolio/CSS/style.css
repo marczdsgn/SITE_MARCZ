@@ -24,7 +24,7 @@ section.container{
   
   section.galeria{
     height: 300px;
-    background-color: rgb(140, 109, 68);
+    background-color: rgb(222, 222, 222);
     border-radius: 22px;
     cursor: pointer;
       background-size: cover;
