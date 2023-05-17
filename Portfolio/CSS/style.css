@@ -126,4 +126,42 @@ section.galeria{
 }
 /*GALERIA*/
 
+/*SOBRE*/
+.texto2{
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 100px 30px 0 30px;
+}
+
+.texto2 h1{
+  font-family: monument;
+  font-size: 34px;
+  padding-bottom: 10px;
+}
+
+.texto2 h2{
+  font-size: 20px;
+  padding-bottom: 20px; 
+  font-family: Monument;
+  margin: 0 auto;
+}
+
+.texto2 p{
+  font-family: clarity city;
+  font-size: 18px;
+  margin: 0 auto;
+  color: #a3a3a3;
+  padding: 0 30px;
+}
+
+.texto2 h3{
+  font-family: Anek;
+  font-size: 30px;
+  padding: 50px 0 100px 0;
+  margin: 0 auto;
+  color: #e3e3e3;
+  line-height: 45px;
+}
+/*SOBRE*/
+
 }
