@@ -13,6 +13,16 @@
     src: url('../00.css/fontes/ClarityCity-Bold.ttf');
 }
 
+@font-face {
+    font-family: Monument;
+    src: url('../00.css/fontes/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+    font-family: MonumentBold;
+    src: url('../00.css/fontes/MonumentExtended-Ultrabold.otf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +36,7 @@ html,body{
     height: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    background-color: #141414;
+    background-color: #151515;
 }
 
 /*Loading*/
@@ -73,7 +83,7 @@ html,body{
 header{
     width: 100%;
     height: 75px;
-    background-color: black;
+    background-color: #151515;
     position: fixed;
     z-index: 4;
 }
@@ -133,7 +143,7 @@ nav a:hover, nav a:focus{
 footer{
     width: 100%;
     height: 70px;
-    background-color: black;
+    background-color: #151515;
 }
 
 .logo2 img{
