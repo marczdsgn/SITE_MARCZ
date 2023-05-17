@@ -76,6 +76,11 @@ section.container{
   margin: 0 auto;
   padding: 0 30px;
 }
+
+section.galeria{
+  height: 250px;
+  border-radius: 22px;
+}
 /*GALERIA*/
 
 }
