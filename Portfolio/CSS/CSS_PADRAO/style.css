@@ -357,8 +357,9 @@ footer{
     }
 
     .logo2 img{
-        width: 90px;
-        margin: 29px -140px -50px 18px;
+        width: 116px;
+        margin: 29px -140px 0px 18px;
+        padding-left: 20px;
     }
 
     .btn{
