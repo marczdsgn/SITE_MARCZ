@@ -135,12 +135,12 @@ section.galeria{
 
 .texto2 h1{
   font-family: monument;
-  font-size: 34px;
+  font-size: 28px;
   padding-bottom: 10px;
 }
 
 .texto2 h2{
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 20px; 
   font-family: Monument;
   margin: 0 auto;
@@ -151,12 +151,11 @@ section.galeria{
   font-size: 18px;
   margin: 0 auto;
   color: #a3a3a3;
-  padding: 0 30px;
 }
 
 .texto2 h3{
   font-family: Anek;
-  font-size: 30px;
+  font-size: 28px;
   padding: 50px 0 100px 0;
   margin: 0 auto;
   color: #e3e3e3;
