@@ -1,0 +1,13 @@
+/*INTRO*/
+.texto{
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 120px 100px 150px 100px;
+}
+ .texto h2{
+    font-size: 42px;
+    padding-bottom: 20px; 
+    font-family: Monument;
+}
+
+/*INTRO*/
