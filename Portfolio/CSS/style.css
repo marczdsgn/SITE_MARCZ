@@ -129,7 +129,7 @@ section.galeria{
 /*SOBRE*/
 .texto2{
   margin: 0 auto;
-  padding: 80px 15px 0 15px;
+  padding: 80px 10px 0 10px;
 }
 
 .texto2 h1{
@@ -142,14 +142,13 @@ section.galeria{
   font-size: 18px;
   padding-bottom: 20px; 
   font-family: Monument;
-  margin: 0 auto;
 }
 
 .texto2 p{
   font-family: clarity city;
-  font-size: 18px;
-  margin: 0 auto;
+  font-size: 16px;
   color: #a3a3a3;
+  padding: 0 20px;
 }
 
 .texto2 h3{
