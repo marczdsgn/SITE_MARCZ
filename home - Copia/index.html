@@ -1,0 +1,85 @@
+<html lang="pt-br">
+<head>
+    <title>marcz-Designer de marcas</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/CSS_PADRAO/style.css">
+  <script type="text/javascript" src=js/script.js></script>  
+  <!--Tags para SEO-->
+  <meta name="description" content="Exemplo de descrição para o meu site.">
+  <meta name="keywords" content="palavras-chaves,separadas,por,virgulas">
+  <meta name="author" content="marczdsgn"> 
+
+  <link rel="shortcut icon" href="imagens/logo3.png" type="image/x-icon">
+   
+  <script>
+    function loading(){
+        document.getElementsByClassName('box-load')[0].style.display="none"
+        document.getElementsByClassName('contentbox')[0].style.display="block"
+    }
+  </script>
+</head>
+
+    <body onLoad="loading()">
+
+        <div class="box-load">
+            <div id="load"></div>
+        </div>
+
+        <div class="contentbox"></div>
+
+        <!--MENU-->
+        <header>
+            <div class="center">
+                <div class="inicio">
+                    <a href="https://marczdsgn.github.io/SITE_MARCZ/Portfolio/index.html">
+                        <div class="logo">
+                                <img src="CSS/CSS_PADRAO/LOGOS/LOGO_BRANCO.png" /> 
+                        </div><!--logo-->
+                    </a>
+                </div>    
+                
+               <nav class="menudesk">
+                    <ul>
+                        <li><a href="">Projetos</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contatos</a></li>
+                    </ul>
+               </nav><!--menudesk-->
+
+               <!--MENU MOBILE-->
+                <div class="hamburger-menu">
+                    <input id="menu_toggle" type="checkbox" />
+                    <label class="menu_btn" for="menu_toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu_box">
+                        <li><a class="menu_item" href="">Projetos</a></li>
+                        <li><a class="menu_item" href="">Sobre</a></li>
+                        <li><a class="menu_item" href="">Contato</a></li>
+                    </ul>
+                </div><!--hamburger-menu-->
+               <!--MENU MOBILE-->
+            </div><!--center-->
+
+            <div class="clear"></div><!--clear-->
+        </header>
+
+        <div class="headerbox"></div><!--headerbox-->
+        <!--/*MENU-->
+
+
+         <!--RODAPE-->
+         <footer>
+            <div class="center">
+                <div class="logo2"><img src="CSS/CSS_PADRAO/LOGOS/LOGO2_BRANCO.png" /></div><!--logo2-->
+                <div class="btn"><a href="">Voltar ao topo</a></div> 
+            </div>
+        </footer><!--footer-->
+      <!--RODAPE-->
+
+    </body>
+</html>
