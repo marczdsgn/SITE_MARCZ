@@ -236,11 +236,11 @@ font-size: 24px;
 
 @media(max-width:800px){
   .texto2{
-    padding: 80px 25px;
+    padding: 80px 20px;
   }
   
   .texto2 h1{
-    font-size: 30px;
+    font-size: 34px;
   }
   
   .texto2 h2{
