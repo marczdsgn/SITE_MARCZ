@@ -1,0 +1,194 @@
+
+
+/*INTRO*/
+.texto1{
+  max-width: 924px;
+  margin: 0 auto;
+  padding: 150px 20 200 20;
+}
+.intro{
+font-size: 46px;
+font-family: monument;
+color: white;
+}
+
+/*INTRO*/
+
+/*GALERIA*/
+section.container{
+display: grid;
+grid-gap: 24px 20px;
+max-width: 1268px;
+margin: 0 auto;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+padding: 0 30px;
+}
+
+section.galeria{
+width: 100%;
+padding-bottom: 80%;
+margin: 0 auto;
+position: relative;
+cursor: pointer;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 20px;
+}
+
+@media(min-width:800px){
+.container{
+  grid-template-columns: repeat(2,50%);
+}
+}
+@media(min-width:1024px){
+.container{
+  grid-template-columns: repeat(3,33.3%);
+}
+}
+
+section.capa{
+background-image: url('../imagens/capa.jpg');
+padding: 5px;
+}
+
+section.capaGABI{
+background-image: url('../GALERIA/CAPA1_GABI.jpg');
+}
+
+section.capafYNES{
+background-image: url('../GALERIA/CAPA_FYNES.jpg');
+}
+
+section.capaSAMANTHA{
+background-image: url('../GALERIA/CAPA_SAMANTHA.jpg');
+}
+
+section.capaZCROSS{
+background-image: url('../GALERIA/CAPA_ZCROOS.jpg');
+}
+
+section.capaCARINHAS{
+background-image: url('../GALERIA/CAPA_CARINHAS.jpg');
+}
+
+section.capaPAINATE{
+background-image: url('../GALERIA/CAPA_Painite.jpg');
+}
+
+/*
+.overlay{
+position: absolute;
+top:0%;
+left: 0%;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: 0.4s;
+background-color: rgba(255,255,255, .05);
+-webkit-background-color: rgba(255,255,255, .05);
+box-shadow: 0 0  rgba(0, 0, 0, 0.25);
+-webkit-box-shadow: 0 0  rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(10px); 
+-webkit-backdrop-filter: blur(10px);
+
+-moz-background-color: black;
+}
+
+.overlay:hover{
+opacity: 0.99;
+}*/
+
+.overlay{
+position: absolute;
+top:0%;
+left: 0%;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: 0.4s;
+background-color: rgba(0, 0, 0, 0.70);
+border-radius: 20px;
+}
+
+.overlay:hover{
+opacity: 0.99;
+}
+
+h2.titulo{
+color: #ffffff;
+position: relative;
+top: 20%;
+padding-left: 10%;
+font-size: 24px;
+}
+/*GALERIA*/
+
+
+/*SOBRE*/
+.texto2{
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+}
+
+.texto2 h1{
+  font-family: 'MonumentRegular';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.texto2 h2{
+  font-family: 'MonumentRegular';
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 1.3;
+}
+
+.texto2 p{
+  font-family: Clarity city;
+  font-size: 20px;
+  color: rgb(141, 141, 141);
+  text-align: center;
+  padding: 8px 10px;
+}
+
+.texto2 h3{
+  font-family: ClarityBold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  line-height: 1;
+}
+
+.botao{
+  padding: 15px 10px;
+  width: 120px;
+  text-align: center;
+  font-family: ClarityRegular;
+  color: white;
+  background: #5c27c6;
+  margin: 0 auto;
+  border-radius: 12px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.botao:hover{
+  background: #3a1582;
+  color: rgba(255, 255, 255, 0.6);
+  transition: background, 0.7s;
+  transition: color 0.7s;
+}
+/*SOBRE*/
+
+
+
+
+
+
+
